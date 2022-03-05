@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto margin wrapping ordering | Bootstrap 4</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row-h1 {
+            background: #f4f4f4;
+            height: 150px;
+        }
+        
+        .item-h1 {
+            border: 1px solid #333;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1 class="text-center display-3 my-4">auto margin wrapping ordering</h1>
+    <div class="container">
+
+        <!--mr-auto-->
+        <div class="d-flex  row-h1">
+            <div class="p-2 mr-auto item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+        </div> <br> <br>
+
+        <!--ml-auto-->
+        <div class="d-flex  row-h1">
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 ml-auto item-h1">Flex Item</div>
+        </div> <br> <br>
+
+        <!--MB-auto-->
+        <div class="d-flex flex-column  row-h1">
+            <div class="p-2 mb-auto item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+        </div> <br> <br>
+
+        <!--MT-auto-->
+        <div class="d-flex flex-column  row-h1">
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  mt-auto item-h1">Flex Item</div>
+        </div> <br> <br>
+
+        <!--no wrap-->
+        <div class="d-flex flex-nowrap row-h1">
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+        </div> <br> <br>
+
+
+        <!--no wrap-->
+        <div class="d-flex flex-wrap row-h1">
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2 item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+            <div class="p-2  item-h1">Flex Item</div>
+        </div> <br> <br>
+
+        <!--order-->
+        <div class="d-flex row-h1">
+            <div class="p-2 item-h1 order-3 order-sm-2">Flex Item 1</div>
+            <div class="p-2 item-h1 order-2 order-sm-3">Flex Item 2</div>
+            <div class="p-2 item-h1 order-1 order-sm-1">Flex Item 3</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div style="margin-top: 50px;"></div>
+
+    <!--Bootstrap js file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

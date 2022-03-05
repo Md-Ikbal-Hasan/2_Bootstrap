@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert and Progress | Bootstrap4</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <h1 class="text-center display-3 my-4">Alert and progress</h1>
+    <div class="container">
+
+        <div class="alert alert-success">
+            <strong>Success</strong> Blog post added <a class="alert-link" href="#">Check it out</a>
+        </div>
+        <div class="alert alert-info">
+            <strong>Attention</strong> You have a new message <a class="alert-link" href="#">Check it out</a>
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning</strong> Please chcek the log file <a class="alert-link" href="#">Check it out</a>
+        </div>
+
+        <div class="alert alert-danger ">
+            <h4>Therer is a problem</h4>
+            <strong>Errror</strong> Database update fail <a class="alert-link" href="#">Check it out</a>
+        </div>
+
+        <div class="alert alert-success alert-dismissable">
+
+            <strong>Success</strong> Blog post added <a class="alert-link" href="#">Check it out</a>
+
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-danger alert-dismissable ">
+            <strong>Error Found.</strong> Immediately check it now. <a class="alert-link" href="">Check it out</a>
+
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+
+        </div>
+
+
+        <!--Progress bar-->
+
+        <div class="progress ">
+            <div class="progress-bar" style="width: 30%;">HTML </div>
+        </div> <br>
+
+        <div class="progress">
+            <div class="progress-bar" style="width: 25%;">25%</div>
+        </div> <br>
+
+        <div class="progress">
+            <div class="progress-bar bg-warning text-dark" style="width: 50%;">50%</div>
+        </div> <br>
+
+
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 75%;">75%</div>
+        </div> <br>
+
+        <strong>HTML</strong>
+        <div class="progress">
+            <div class="progress-bar bg-info" style="width: 100%;">100%</div>
+        </div> <br>
+
+
+        <strong>CSS</strong>
+        <div class="progress">
+            <div class="progress-bar bg-success progress-bar-striped" style="width: 75%;">75%</div>
+        </div> <br>
+
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-animated progress-bar-striped" style="width: 85%;">Bootstrap</div>
+        </div> <br>
+
+
+    </div>
+
+
+
+
+
+    <div style="margin-top: 50px;"></div>
+
+    <!--Bootstrap js file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

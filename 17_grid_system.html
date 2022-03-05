@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System | Bootstrap 4</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <h1 class="text-center display-3 my-4">Grid System</h1>
+    <div class="container">
+
+        <!--auto layout columns-->
+        <div class="row">
+            <div class="col">
+                <h3>Ikbal</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, neque ab saepe odio suscipit id alias beatae laborum veritatis culpa tempore. Accusamus repellendus suscipit laborum nam iure ex libero sit?
+                </p>
+            </div>
+
+            <div class="col">
+                <h3>Ikbal</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, neque ab saepe odio suscipit id alias beatae laborum veritatis culpa tempore. Accusamus repellendus suscipit laborum nam iure ex libero sit?
+                </p>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <div class="row">
+            <div class="col-12 col-sm-3 col-md-4 col-lg-4 col-xl-6">
+                <h3>Ikbal</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, neque ab saepe odio suscipit id alias beatae laborum veritatis culpa tempore. Accusamus repellendus suscipit laborum nam iure ex libero sit?
+                </p>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-6 col-xl-3">
+                <h3>Ikbal</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, neque ab saepe odio suscipit id alias beatae laborum veritatis culpa tempore. Accusamus repellendus suscipit laborum nam iure ex libero sit?
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-3">
+                <h3>Ikbal</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, neque ab saepe odio suscipit id alias beatae laborum veritatis culpa tempore. Accusamus repellendus suscipit laborum nam iure ex libero sit?
+                </p>
+            </div>
+
+        </div> <br>
+        <hr>
+
+        <!--nesting grid-->
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Ikbal</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, cupiditate!</p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3>Ikbal</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3>Ikbal</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br>
+
+
+
+
+        <!--offsetting columns-->
+        <div class="row">
+            <div class="col-3 offset-md-3">
+                <h3>Ikbal 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, temporibus aliquid cum velit quam vero impedit architecto est earum quae!
+                </p>
+            </div>
+
+            <div class="col-3 offset-3 offset-sm-6 offset-md-3">
+                <h3>Ikbal 2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, temporibus aliquid cum velit quam vero impedit architecto est earum quae!
+                </p>
+            </div>
+        </div> <br> <br>
+
+
+        <!--reordering columns-->
+        <div class="row">
+            <div class="col order-2">
+                <h3>First Column</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, temporibus aliquid cum velit quam vero impedit architecto est earum quae!
+                </p>
+            </div>
+
+            <div class="col order-3">
+                <h3>Second Column</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, temporibus aliquid cum velit quam vero impedit architecto est earum quae!
+                </p>
+            </div>
+
+            <div class="col order-1">
+                <h3>Third Column</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, temporibus aliquid cum velit quam vero impedit architecto est earum quae!
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div style="margin-top: 50px;"></div>
+
+    <!--Bootstrap js file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

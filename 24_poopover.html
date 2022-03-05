@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popovers | Bootstrap 4</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <h1 class="text-center display-3 my-4">Popovers</h1>
+    <div class="container">
+
+
+        <button class="btn btn-sm btn-primary" data-toggle="popover" title="Hello Visitor" data-content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus ex " data-placement="top">
+            Toggle Popover
+        </button>
+
+        <button class="btn btn-sm btn-success" data-toggle="popover" title="Hello Visitor" data-content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus ex " data-placement="right">
+            Toggle Popover
+        </button>
+
+        <button class="btn btn-sm btn-danger" data-toggle="popover" title="Hello Visitor" data-content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus ex " data-placement="left">
+            Toggle Popover
+        </button> <br> <br>
+
+        <button id="myPopover1" class="btn btn-sm btn-info" data-trigger="focus" data-toggle="popover" title="Hello Visitor" data-content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus ex " data-placement="right">
+            Toggle Popover
+        </button> <br>
+        <hr>
+
+        <!--Control with js-->
+        <button class="btn btn-primary btn-sm" onclick="showPopover()">Show Popover</button>
+
+        <button class="btn btn-primary btn-sm" onclick="hidePopover()">Hide Popover</button>
+
+        <button class="btn btn-primary btn-sm" onclick="toggle()">Toggle Popover</button>
+
+
+
+
+
+    </div>
+    <!--Bootstrap js file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $('[data-toggle="popover"]').popover();
+
+        function showPopover() {
+            $('#myPopover1').popover('show')
+
+        }
+
+        function hidePopover() {
+            $('#myPopover1').popover('hide')
+
+        }
+
+        function toggle() {
+            $('#myPopover1').popover('toggle')
+
+        }
+    </script>
+</body>
+
+</html>

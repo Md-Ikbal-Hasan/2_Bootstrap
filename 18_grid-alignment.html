@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid alignment | Bootstrap 4</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <h1 class="text-center display-3 my-4">Grid Alignment</h1>
+    <div class="container">
+        <!--Grid Alignemnt-->
+
+        <div class="container">
+            <div class="row align-items-start" style="height: 200px; border:1px #333 solid; margin-bottom: 10px;">
+                <div class="col">
+                    Top Aligned Text
+                </div>
+                <div class="col">
+                    Top Aligned Text
+                </div>
+                <div class="col">
+                    Top Aligned Text
+                </div>
+            </div>
+
+
+
+            <div class="row align-items-center" style="height: 200px; border:1px #333 solid ; margin-bottom:10px">
+                <div class="col">
+                    Middle Aligned Text
+                </div>
+                <div class="col">
+                    Middle Aligned Text
+                </div>
+                <div class="col">
+                    Middle Aligned Text
+                </div>
+            </div>
+
+
+
+            <div class="row align-items-end" style="height: 200px; border:1px #333 solid">
+                <div class="col">
+                    Bottom Aligned Text
+                </div>
+                <div class="col">
+                    Bottom Aligned Text
+                </div>
+                <div class="col">
+                    Bottom Aligned Text
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <!--vertical align individual cols-->
+        <div class="container">
+            <div class="row" style="height: 200px; border:1px #333 solid; ">
+                <div class="col align-self-start">
+                    top2 Aligned Text
+                </div>
+                <div class="col align-self-center">
+                    middle Aligned Text
+                </div>
+                <div class="col align-self-end">
+                    Bottom Aligned Text
+                </div>
+            </div>
+        </div> <br> <br>
+
+
+        <!--vertical align individual cols-->
+        <div class="container">
+            <div class="row justify-content-start" style="height: 200px; border:1px #333 solid; ">
+                <div class="col-4">
+                    3 left Aligned Text
+                </div>
+                <div class="col-4">
+                    left Aligned Text
+                </div>
+            </div>
+
+            <div class="row justify-content-center" style="height: 200px; border:1px #333 solid; ">
+                <div class="col-4">
+                    center Aligned Text
+                </div>
+                <div class="col-4">
+                    center Aligned Text
+                </div>
+            </div>
+
+            <div class="row justify-content-end" style="height: 200px; border:1px #333 solid; ">
+                <div class="col-4">
+                    right right Aligned Text
+                </div>
+                <div class="col-4">
+                    right Aligned Text
+                </div>
+            </div>
+
+            <div class="row justify-content-around" style="height: 200px; border:1px #333 solid; ">
+                <div class="col-4">
+                    content around
+                </div>
+                <div class="col-4">
+                    content around
+                </div>
+            </div>
+
+            <div class="row justify-content-between" style="height: 200px; border:1px #333 solid; ">
+                <div class="col-4">
+                    content between
+                </div>
+                <div class="col-4">
+                    content between
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <!--columns wrapping and no gutters-->
+        <div class="row no-gutters">
+            <div class="col-9">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est officiis consequatur, aperiam reprehenderit eius error odit libero incidunt. Necessitatibus repellendus eius officia porro in temporibus maxime accusamus delectus natus!
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est officiis consequatur, aperiam reprehenderit eius error odit libero incidunt. Necessitatibus repellendus eius officia porro in temporibus maxime accusamus delectus natus!
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est officiis consequatur, aperiam reprehenderit eius error odit libero incidunt. Necessitatibus repellendus eius officia porro in temporibus maxime accusamus delectus natus!
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div style="margin-top: 50px;"></div>
+
+    <!--Bootstrap js file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

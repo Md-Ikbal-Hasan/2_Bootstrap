@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse and Accordion | Bootstrap 4</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <h1 class="text-center display-3 my-4">Collapse and Accordion</h1>
+    <div class="container">
+
+
+        <!--button with collapse-->
+        <button class="btn btn-primary mb-4" data-target="#button-details" data-toggle="collapse">Read More</button>
+
+        <div class="collapse" id="button-details">
+            <div class="card">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate reiciendis voluptatum maxime laborum assumenda nesciunt ut quia nobis ipsa deleniti? Recusandae deleniti quod dicta temporibus cupiditate velit obcaecati incidunt fugit.</p>
+                </div>
+            </div>
+        </div> <br> <br>
+
+
+
+
+        <!--acordion-->
+        <div id="accordion" role="tablist">
+
+            <div class="card">
+                <div class="card-header" role="tab">
+                    <h5 class="mb-0">
+                        <a href="#section-1" data-toggle="collapse">Section 1 </a>
+                    </h5>
+                </div>
+                <div class="collapse show" id="section-1" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem1 ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolorem quidem dolor officiis accusamus. Adipisci odio consequatur consectetur aspernatur odit unde, aliquam illum similique in, sint facere quaerat eligendi tempora laborum!
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" role="tab">
+                    <h5 class="mb-0">
+                        <a href="#section-2" data-toggle="collapse">Section 2 </a>
+                    </h5>
+                </div>
+                <div class="collapse " id="section-2" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem2 ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolorem quidem dolor officiis accusamus. Adipisci odio consequatur consectetur aspernatur odit unde, aliquam illum similique in, sint facere quaerat eligendi tempora laborum!
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" role="tab">
+                    <h5 class="mb-0">
+                        <a href="#section-3" data-toggle="collapse">Section 3 </a>
+                    </h5>
+                </div>
+                <div class="collapse " id="section-3" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem3 ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolorem quidem dolor officiis accusamus. Adipisci odio consequatur consectetur aspernatur odit unde, aliquam illum similique in, sint facere quaerat eligendi tempora laborum!
+                    </div>
+                </div>
+            </div>
+
+        </div> <br> <br>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <div style="margin-top: 50px;"></div>
+
+    <!--Bootstrap js file-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
